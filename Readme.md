@@ -8,7 +8,7 @@ This example demonstrates how to create the Excel-style filter drop-down, adjust
 
 ![screenshot](./images/screenshot.png)
 
-> The project requires references to the Devexpress.DataAccess, DevExpress.Xpf.Core.Extensions, DevExpress.Xpf.Grid, DevExpress.Xpf.Grid.Core assemblies in addition to references created automatically when the PivotGrid control is dropped from VS Designer Toolbox.
+> The project requires references to the Devexpress.DataAccess, DevExpress.Xpf.Core.Extensions, DevExpress.Xpf.Grid, DevExpress.Xpf.Grid.Core, Devexpress.Xpf.Grid.Extensions assemblies in addition to references created automatically when the PivotGrid control is dropped from VS Designer Toolbox.
 
 **API in this example:**
 
