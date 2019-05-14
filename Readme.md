@@ -4,7 +4,9 @@ This example demonstrates how to create the Excel-style filter drop-down, adjust
 
 * Create a custom data template that contains the [ExcelStyleFilterElement](https://docs.devexpress.com/WPF/DevExpress.Xpf.Core.FilteringUI.ExcelStyleFilterElement) whose [QueryOperators](https://docs.devexpress.com/WPF/DevExpress.Xpf.Core.FilteringUI.ExcelStyleFilterElement.QueryOperators) event is handled to modify the list of available operators and add a custom operator.
 
-* Assign the data template to the [PivotGridField.CustomFilterPopupTemplate](https://docs.devexpress.com/WPF/DevExpress.Xpf.PivotGrid.PivotGridField.CustomFilterPopupTemplate) property.
+* Assign the data template to the [PivotGridField.CustomExcelStyleFilterPopupTemplate](https://docs.devexpress.com/WPF/DevExpress.Xpf.PivotGrid.PivotGridField.CustomExcelStyleFilterPopupTemplate) property.
+
+* Set the [PivotGridField.ImmediateUpdateExcelStyleFilter](https://docs.devexpress.com/WPF/DevExpress.Xpf.PivotGrid.PivotGridField.ImmediateUpdateExcelStyleFilter) property to **false** so that the user should click **OK** to apply a filter.
 
 ![screenshot](./images/screenshot.png)
 
@@ -12,12 +14,12 @@ This example demonstrates how to create the Excel-style filter drop-down, adjust
 
 **API in this example:**
 
-* [PivotGridField.CustomFilterPopupTemplate](https://docs.devexpress.com/WPF/DevExpress.Xpf.PivotGrid.PivotGridField.CustomFilterPopupTemplate) property
+* [PivotGridField.CustomExcelStyleFilterPopupTemplate](https://docs.devexpress.com/WPF/DevExpress.Xpf.PivotGrid.PivotGridField.CustomExcelStyleFilterPopupTemplate) property
 * [ExcelStyleFilterElement](https://docs.devexpress.com/WPF/DevExpress.Xpf.Core.FilteringUI.ExcelStyleFilterElement) class
 * [QueryOperators](https://docs.devexpress.com/WPF/DevExpress.Xpf.Core.FilteringUI.ExcelStyleFilterElement.QueryOperators) event
 * [PivotGridControl.FieldFilterPopupMode](https://docs.devexpress.com/WPF/DevExpress.Xpf.PivotGrid.PivotGridControl.FieldFilterPopupMode) property
 * [PivotGridControl.ShowOnlyAvailableFilterItems ](https://docs.devexpress.com/WPF/DevExpress.Xpf.PivotGrid.PivotGridControl.ShowOnlyAvailableFilterItem)
-* [PivotGridField.ImmediateUpdateFieldFilter](https://docs.devexpress.com/WPF/DevExpress.Xpf.PivotGrid.PivotGridField.ImmediateUpdateFieldFilter) property
+* [PivotGridField.ImmediateUpdateExcelStyleFilter](https://docs.devexpress.com/WPF/DevExpress.Xpf.PivotGrid.PivotGridField.ImmediateUpdateExcelStyleFilter) property
 * [ExcelStyleFilterElementOperatorItem](https://docs.devexpress.com/WPF/DevExpress.Xpf.Core.FilteringUI.ExcelStyleFilterElementOperatorItem) class
 * [ExcelStyleFilterElementOperatorType](https://docs.devexpress.com/WPF/DevExpress.Xpf.Core.FilteringUI.ExcelStyleFilterElementOperatorType) enumeration
 * [TextEditSettings](https://docs.devexpress.com/WPF/DevExpress.Xpf.Editors.Settings.TextEditSettings) class

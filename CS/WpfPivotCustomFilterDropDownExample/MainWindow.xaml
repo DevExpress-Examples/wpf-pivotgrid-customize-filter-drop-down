@@ -54,12 +54,13 @@
                     Caption="OrderDate"
                     FieldName="OrderDate"
                     GroupInterval="Date"
-                    Name="fieldOrderDate">
-                    <dxpg:PivotGridField.CustomFilterPopupTemplate>
+                    Name="fieldOrderDate"
+                    ImmediateUpdateExcelStyleFilter="False">
+                    <dxpg:PivotGridField.CustomExcelStyleFilterPopupTemplate>
                         <DataTemplate>
                             <dxfui:ExcelStyleFilterElement Name="PART_FilterElement" QueryOperators="OnExcelStyleFilterQueryOperators"/>
                         </DataTemplate>
-                    </dxpg:PivotGridField.CustomFilterPopupTemplate>
+                    </dxpg:PivotGridField.CustomExcelStyleFilterPopupTemplate>
                 </dxpg:PivotGridField>
                 <dxpg:PivotGridField
                     Area="ColumnArea"
@@ -93,8 +94,7 @@
                     AreaIndex="1"
                     Caption="Product Name"
                     FieldName="ProductName"
-                    Name="fieldProductName" 
-                    ImmediateUpdateFieldFilter="True">
+                    Name="fieldProductName" >
                 </dxpg:PivotGridField>
             </dxpg:PivotGridControl.Fields>
         </dxpg:PivotGridControl>
