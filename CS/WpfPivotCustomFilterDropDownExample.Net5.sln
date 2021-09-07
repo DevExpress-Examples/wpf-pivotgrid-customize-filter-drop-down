@@ -1,9 +1,9 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 16
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfPivotCustomFilterDropDownExample", "WpfPivotCustomFilterDropDownExample\WpfPivotCustomFilterDropDownExample.csproj", "{E4572CB5-3FE4-42A4-B40B-FC8AF134E054}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfPivotCustomFilterDropDownExample", "WpfPivotCustomFilterDropDownExample\WpfPivotCustomFilterDropDownExample.Net5.csproj", "{E4572CB5-3FE4-42A4-B40B-FC8AF134E054}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
