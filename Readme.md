@@ -17,7 +17,12 @@ This example demonstrates how to create the Excel-style filter drop-down, adjust
 
 > The project requires references to the Devexpress.DataAccess, DevExpress.Xpf.Core.Extensions, DevExpress.Xpf.Grid, DevExpress.Xpf.Grid.Core, Devexpress.Xpf.Grid.Extensions assemblies in addition to references created automatically when the PivotGrid control is dropped from VS Designer Toolbox.
 
-## API in this example
+## Files to Review 
+
+* [MainWindow.xaml](./CS/WpfPivotCustomFilterDropDownExample/MainWindow.xaml)
+* [MainWindow.xaml.cs](./CS/WpfPivotCustomFilterDropDownExample/MainWindow.xaml.cs) / VB:[MainWindow.xaml.vb](./VB/WpfPivotCustomFilterDropDownExample/MainWindow.xaml.vb)
+
+## API
 
 * [PivotGridField.CustomExcelStyleFilterPopupTemplate](https://docs.devexpress.com/WPF/DevExpress.Xpf.PivotGrid.PivotGridField.CustomExcelStyleFilterPopupTemplate) property
 * [ExcelStyleFilterElement](https://docs.devexpress.com/WPF/DevExpress.Xpf.Core.FilteringUI.ExcelStyleFilterElement) class
