@@ -45,7 +45,7 @@ You can use any available filter element in the data template. For the ExcelStyl
 * [Filter Elements](https://docs.devexpress.com/WPF/400314)
 * [Implementing Custom Functions](https://docs.devexpress.com/WindowsForms/9947)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-pivotgrid-customize-filter-drop-down&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-pivotgrid-customize-filter-drop-down&~~~was_helpful=no)
 
